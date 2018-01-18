@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #EC7357;
+    background: #FBFFB9;
+}
+
+::selection {
+    color: #EC7357; 
+    background: #FBFFB9;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+ul.menu {
+    float: right;
+    margin-right: 42px;
+    list-style: none;
+}
+
+ul.menu li {
+    margin: 0 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.73);
+    display: inline-block;
+}
+
+ul.menu li.heartit {
+    color: #ed1e24;
+}
+
+ul.menu li a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9055A2;
+}
+
+main.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main.page > div {
+    flex: 1;
+    text-align: left;
+}
+
+main.page div.brand {
+    text-align: right;
+}
+
+div.brand img {
+    width: 69%;
+     max-width: 390px;
+}
+
+.information h1 {
+    color: #f9320c;
+}
+
+.information p {
+     font-size: 15px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.87);
+    max-width: 600px;
+}
+
+.information p span.important {
+    /*font-weight: bold;*/
+    color: #E71D36;
+}
+
+.information p a {
+    color: #7200da;
+}
+
+.information p.special {
+        font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+
+.information button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12.6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    background: #FBFFB9;
+    border: 0;
+    padding: 12px;
+    border-radius: 3px;
+    color: #7200da;
+    border: 1px solid #f9c00c;
+}
+
+.information button:hover {
+    border-color: #E71D36;
+}
